@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: #000;
+    margin: 8px auto;
+}
+
+#firstp {
+    line-height: 1.3;
+    font-size: 25px;
+    margin: 25px auto;
+    max-width: 450px;
+}
+
+#firsth {
+    color: red;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+
+.links {
+    float: left;
+    color: #3707f5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
